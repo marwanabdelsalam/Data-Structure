@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 /*
+Author : MarwanAbdelsalam
+
 V1:Simple code of linked list
 V2: Add_Node_Last func added
 */
