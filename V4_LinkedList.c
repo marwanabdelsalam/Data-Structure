@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 /*
+Author : MarwanAbdelsalam
+
 V1:Simple code of linked list
 V2: Add_Node_Last functions added
 V3: PrintList and Delete_Node_First functions added

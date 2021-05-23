@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 /*
+
+Author : MarwanAbdelsalam
+
 V1:Simple code of linked list
 */
 

@@ -251,20 +251,17 @@ int Is_Existed(node **head,int value)
 	}
 	else
 	{
-	//make a pointer to node named (current) which at first point to the first node
-	node *current=(*head);
-	//this while constantly checks if the current pointer reachs to null which is the last node
-	while(current->next!=NULL)
-		{
-			current=current->next;
-			if (current->data==value)		//if it founds the value return 1 and get out of the function
-				return 1;
-		}
-		
+		//make a pointer to node named (current) which at first point to the first node
+		node *current=(*head);
+		//this while constantly checks if the current pointer reachs to null which is the last node
+		while(current->next!=NULL)
+			{
+				current=current->next;
+				if (current->data==value)		//if it founds the value return 1 and get out of the function
+					return 1;
+			}
 	}
 	return 0;
-
-
 }
 
 int main()
